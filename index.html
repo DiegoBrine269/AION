@@ -1,123 +1,182 @@
-<!doctype html>
-<html class="no-js" lang="">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AION</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <meta name="theme-color" content="#fafafa">
-</head>
-
-<body>
-
-  <!-- Add your site or application content here -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <body>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/AION-logo.jpeg" width="100" height="30" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">MiEscuelaOnline.com</a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+        </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled d-flex" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-  <!--Slider-->
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/slider-1.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/slider-2.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/slider-3.jpg" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </a>
-  </div>
+        <div class="hero py-5 text-white bg-primary">
+            <div class="container">
+                <h1 class="d-inline">AION </h1><h2 class="d-inline">Tecnología y Educación en un solo lugar</h2>
+                <p>AION es una solución global a sus necesidades de seguridad, educación y tecnología.</p>
+                <a href="#" class="btn btn-light text-muted">Más Info.</a>
+            </div>
+        </div>
 
-  <!--Contenedor Botones-->
-  <div class="container">
-    <div class="row">
-      <p class="text-center h4 mt-3">¡Comienza hoy mismo a aprender de la mejor manera!</p>
-    </div>
-    <div class="row">
-      <div class="col align-middle text-center"><button type="button" onClick="parent.open('/login.html')" class="btn btn-primary btn-lg m-3">Iniciar Sesión</button></div>
-      <div class="col align-middle text-center"><button type="button" class="btn btn-secondary btn-lg m-3">Registrarse</button></div>
-    </div>
-  </div>
+        <main class="my-3">
+            <h3 class="text-center mb-3">Nuestros Servicios</h3>
+            <div class="container">
+                <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <img class="card-img-top" src="img/1-seguridad.jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Seguridad Informática</h5>
+                        <p class="card-text">Conozca Belona, nuestra área de ingenieros expertos en el área de seguridad informática y electrónica<p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <img class="card-img-top" src="img/2-clases.jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Clases a distancia</h5>
+                        <p class="card-text">Conozca Zemna, nuestra plataforma de educacion virtual</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <img class="card-img-top" src="img/3-equipo.jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Servicio de calidad</h5>
+                        <p class="card-text">AION a través PSI México garantiza un servicio de alta calidad, conozca más sobre nuestra infraestructura</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
 
-  <!--Extras-->
-  <div class="container">
-    <div class="card">
-      <div class="card-header">
-        Featured
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
+            <!--Barra verde-->
+            <div class="bg-green py-5 mt-3 mb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 text-white">
+                            <div class="p-center">
+                                <p>
+                                    Únase a nuestra comunidad para que usted también comience a disfrutar de todos los servicios que AION le proporciona.
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi deleniti tenetur repellendus aliquid ipsum perferendis, sapiente totam beatae numquam laborum iste fugit. Illo sit sapiente similique accusamus totam doloremque adipisci.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/imágen_doble.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="container">
+                <h3 class="text-center mt-5 mb-3">Personas que confían en AION</h3>
+                <div class="row">
+                    <div class="col-sm-4 text-center">
+                        <h1 class="text-primary big-numbers">40,000</h1>
+                        <span>Estudiantes</span>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <h1 class="text-primary big-numbers">2,000</h1>
+                        <span>Docentes</span>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <h1 class="text-primary big-numbers">150</h1>
+                        <span>Empresas</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
 
-  <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+        <footer class="bg-light text-center text-lg-start mt-5">
+            
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+              <form action="">
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-auto mb-4 mb-md-0">
+                    <p class="pt-2"><strong>Regístrate a nuestro newsletter</strong></p>
+                  </div>
+                  <!--Grid column-->
+          
+                  <!--Grid column-->
+                  <div class="col-md-5 col-12 mb-4 mb-md-0">
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                      <input type="email" id="form5Example2" class="form-control" placeholder="Email"/>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+          
+                  <!--Grid column-->
+                  <div class="col-auto mb-4 mb-md-0">
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary mb-4">Suscribirse</button>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </form>
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+              © 2021 Copyright:
+              <a class="text-dark" href="https://mdbootstrap.com/">PSI México</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-</html>
+   
+    </body>
+
+    </html>
